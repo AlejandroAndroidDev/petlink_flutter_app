@@ -26,7 +26,7 @@ class _PetsPageState extends State<PetsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 4, 40, 71),
+      backgroundColor: const Color.fromARGB(255, 3, 25, 44),
       appBar: AppBar(
         toolbarHeight: 80,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),

@@ -43,6 +43,7 @@ dependencies:
   text_marquee: ^0.0.2
   text_scroll: ^0.2.0
   gradient_widgets: ^0.6.0
+  auth0_flutter: ^1.3.0
 
 dev_dependencies:
   flutter_test:

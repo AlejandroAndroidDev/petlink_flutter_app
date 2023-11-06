@@ -22,7 +22,7 @@ class _SearchViewFilterPetsState extends State<SearchViewFilterPets> {
         controller: _textController,
         decoration: InputDecoration(
           prefixIcon: IconButton(
-            icon: Icon(
+            icon: const Icon(
               Icons.search_rounded,
               color: Color.fromARGB(255, 4, 40, 71),
             ),
@@ -34,7 +34,7 @@ class _SearchViewFilterPetsState extends State<SearchViewFilterPets> {
             ),
             child: PopupMenuButton(
               color: Colors.white,
-              icon: Icon(
+              icon: const Icon(
                 Icons.filter_list_rounded,
                 color: Color.fromARGB(255, 4, 40, 71),
               ),

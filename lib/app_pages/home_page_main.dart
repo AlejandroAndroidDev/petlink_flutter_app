@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 4, 40, 71),
+      backgroundColor: const Color.fromARGB(255, 3, 25, 44),
       body: _pages[selectedPage],
       bottomNavigationBar: FluidNavBar(
         icons: [
@@ -61,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
         onChange: (index) => _navigateBottomBar(index),
         style: const FluidNavBarStyle(
-            iconUnselectedForegroundColor: Color.fromARGB(255, 4, 40, 71),
-            iconSelectedForegroundColor: Color.fromARGB(255, 4, 40, 71)),
+            iconUnselectedForegroundColor: Color.fromARGB(255, 3, 25, 44),
+            iconSelectedForegroundColor: Color.fromARGB(255, 3, 25, 44)),
         scaleFactor: 1.5,
         defaultIndex: 1,
         itemBuilder: (icon, item) => Semantics(

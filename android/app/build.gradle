@@ -49,6 +49,7 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        manifestPlaceholders += [auth0Domain: "<YOUR_AUTH0_DOMAIN>", auth0Scheme: "petlink_flutter_app"] 
     }
 
     buildTypes {
@@ -58,6 +59,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
 }
 
 flutter {

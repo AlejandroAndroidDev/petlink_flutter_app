@@ -4,7 +4,7 @@ import 'package:petlink_flutter_app/api/api_variable.dart';
 import 'package:petlink_flutter_app/model/pets_model.dart';
 
 class PetService {
-  final String ipAddressAPI = "http://172.30.4.23:8080";
+  final String ipAddressAPI = "http://172.30.2.80:8080";
 
   // Obtiene una lista de todas las mascotas disponibles desde la API.
   Future<List<Pet>> getAllPets() async {
